@@ -1,0 +1,94 @@
+.selectedItem {
+  transition: 0.4s;
+}
+
+.selectedItem:hover {
+  /* background-color: #f7941e; */
+  background-color: #F79369;
+
+}
+
+.selectedItem:hover a {
+  color: white;
+}
+
+a.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  text-transform: none;
+  font-size: 0.8rem;
+
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.discountBar {
+  background-color: #fee2f1;
+}
+
+.navbar .form-inline {
+  width: 55%;
+  position: relative;
+}
+
+.navbar .form-inline .input__zone {
+  border: 1px solid #f7941e !important;
+}
+
+.navbar .form-inline .form-control {
+  width: 100%;
+}
+
+.navbar .form-inline .search__btn {
+  position: absolute;
+  color: #f7941e;
+}
+
+.navbar .navbar-brand {
+  width: 15%;
+}
+
+.navbar .navbar-brand .fhs__logo {
+  width: 100%;
+}
+
+.navbar .collapse {
+  margin-left: 0%;
+}
+
+.navbar .collapse .nav-item {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin: auto;
+}
+
+.navbar .collapse .nav-item i {
+  display: block;
+  text-align: center;
+}
+
+.navbar .collapse .nav-item.loginActive {
+  background-color: #f7941e;
+  border-radius: 5px;
+}
+
+.navbar .collapse .nav-item.loginActive a {
+  color: white;
+}
+
+.navbar .collapse .nav-item .fas:before {
+  color: #f7941e;
+}
+
+.navbar .collapse .nav-item .nav-link {
+  color: #f7941e;
+}
+
+.navbar .dropdown .dropdown-item {
+  text-transform: none;
+  font-size: 0.9rem;
+}
